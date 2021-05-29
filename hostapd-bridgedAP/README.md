@@ -13,7 +13,7 @@ with Docker, it will **need to configure the IPtables**. To make **iptables conf
 Home Router (192.168.33.1) <----> RaspberryPi (192.168.3.115) <----> NodeMCU (192.168.3.17)
 
 *In this setup, since they are in the same network, the WebServer in NodeMCU is* 
-*reachable to all devices connected to the Home Router. This is because* 
+*reachable by all devices connected to the Home Router. This is because* 
 *there is no NAT configuration.*
 
 **Instructions:**
