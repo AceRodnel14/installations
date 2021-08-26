@@ -16,3 +16,4 @@ wget https://golang.org/dl/go1.16.4.linux-armv6l.tar.gz
 tar -C /usr/local -xzf go1.16.4.linux-armv6l.tar.gz
 echo -e "\nexport PATH=$PATH:/usr/local/go/bin\n" >> /etc/profile
 source /etc/profile
+sudo ln -s /usr/local/go/bin/go /usr/bin/go
